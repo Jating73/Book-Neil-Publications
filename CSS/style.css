@@ -24,7 +24,7 @@ body
 }
 .intro{ 
     background:url("/Images/cover.jpg") center no-repeat;
-    background:#484297;
+    /*background:#484297;*/
     background-size: cover;
     height: 500px;
 }
