@@ -94,7 +94,10 @@ body
 }
 #faq .text-center{
     padding-top: 34px;
-
+}
+.text-center {
+    text-align: justify!important;
+    padding: 8px 12px;
 }
 #faq .row{
     padding: 10px 10px;
