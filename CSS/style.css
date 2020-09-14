@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 900
+}
+h3{
+    font-weight: 900;
+}
+h5
+{
+    font-weight: 700;
+}
+body
+{
+    font-family: "Open Sans",Arial,sans-serif;    
+    font-weight: 500;
+}
+.navbar-brand{
+    width: 37px;
+}
+.intro{ 
+    background:url("/Images/cover.jpg") center no-repeat;
+    background:#484297;
+    background-size: cover;
+    height: 500px;
+}
+.intro p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 31px;
+    letter-spacing: 2px;
+}
+.intro h1{
+    font-size: 65px;
+    font-weight: 500;
+}
+.intro .col-md-8{
+    margin: 176px 0px;
+    color:white;
+}
+#why .row i{
+    font-size: 73px;
+    padding: 43px
+}
+
+#about
+{
+    background-color: #f2c17d;
+    background-image: linear-gradient(315deg, #f2c17d 0%, #b82e1f 74%);
+    color:white;
+}
+#about .heading,.contact{
+    padding-top: 75px;
+}
+#about .row{
+    padding: 73px 0px;
+}
+.posts{
+    background-color: #f2c17d;
+    background-image: linear-gradient(315deg, #f2c17d 0%, #b82e1f 74%);
+    margin-top: 63px;
+    color: white;
+}
+.posts .text-center{
+    padding-top: 40px;
+}
+.posts .row{
+    color: black;
+    padding-bottom: 50px;
+}
+.posts .col-md-4{
+    position: relative;
+    margin-top: 75px;
+}
+#team{
+    margin: auto;
+    padding-top: 30px;
+}
+#team .card-image{
+    margin: auto;
+    padding-top: 36px;
+}
+#team img{
+    height: 96px;
+    width: 101px;
+}
+#faq{
+    background-color: #f2c17d;
+    background-image: linear-gradient(315deg, #f2c17d 0%, #b82e1f 74%);
+    color:white;
+}
+#faq .text-center{
+    padding-top: 34px;
+
+}
+#faq .row{
+    padding: 10px 10px;
+}
+#contact{
+    background-color: #d2d8d6;
+    background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%);
+
+}
+#contact .row{
+    padding: 50px 0px;
+}
+.contact{
+    background-color: #f2c17d;
+    background-image: linear-gradient(315deg, #f2c17d 0%, #b82e1f 74%);
+    color: white;
+}
+.contact .row{
+    padding: 20px 16px;
+}
+.contact .col-md-8{
+    background-color: white;
+    color: #b82e1f;
+    padding: 49px 30px;
+}
+.contact .col-md-4 {
+    background-color:#246c6c;
+    padding: 47px 55px;
+}
+#footer .row{
+    padding-top:50px;
+}
+#footer li{
+    list-style: none;
+    margin-right: 5px;
+}
+@media only screen and (max-width: 770px) {
+    .intro
+    {
+        background:#484297;
+    }
+    #why .row .col-md-4{
+        text-align: center;
+    } 
+  }
+@media only screen and (max-width:1200px) {
+    .intro h1{
+        font-size:34px;
+    }
+}  
