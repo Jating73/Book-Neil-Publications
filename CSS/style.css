@@ -23,7 +23,7 @@ body
     width: 37px;
 }
 .intro{ 
-    background:url("/Images/cover.jpg") center no-repeat;
+    background:url("/Images/cover.jpg") no-repeat center;
     /*background:#484297;*/
     background-size: cover;
     height: 500px;
@@ -32,20 +32,73 @@ body
     font-family: 'Montserrat', sans-serif;
     font-size: 31px;
     letter-spacing: 2px;
+    text-align: center;
 }
 .intro h1{
     font-size: 65px;
     font-weight: 500;
 }
-.intro .col-md-8{
+.intro .col-md-10{
     margin: 176px 0px;
     color:white;
+}
+.package{
+
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 7%, rgba(253,187,45,1) 99%); 
+    height: 100%;
+    color: white;
+    margin-top: 64px;
+}
+.package .container{
+    padding: 42px 19px;
+}
+.package .row{
+    padding: 30px 0px;
+    margin: auto;
+}
+.package .col-md-4{
+    padding: 0px;
+}
+.package .main-package-list .card{
+    width: 100%;
+}
+.package .card-header{
+    font-size: 25px;
+    font-weight: 700;
+    background-color: cornflowerblue;
+}
+.package h5{
+    color: #484297;
+    font-size: xxx-large;
+}
+.package p{
+    text-align: center;
+}
+.project{
+    margin-top: 65px;
+    background: rgb(60,155,187);
+    background: linear-gradient(34deg, rgba(60,155,187,1) 37%, rgba(230,122,22,0.9335084375547094) 65%);
+    padding: 20px 0px 0px 0px;
+}
+.project .heading{
+    padding: 34px 0px;
+}
+.project .project-list{
+    padding: 20px 0px;
+    background-color: #40a956;
+    color: white;
 }
 #why .row i{
     font-size: 73px;
     padding: 43px
 }
-
+#why p{
+    text-align: center;
+}
+p,#why .col-md-8 p{
+    text-align: justify;
+}
 #about
 {
     background-color: #f2c17d;
@@ -94,6 +147,7 @@ body
 }
 #faq .text-center{
     padding-top: 34px;
+
 }
 #faq .row{
     padding: 10px 10px;
@@ -133,12 +187,37 @@ body
 @media only screen and (max-width: 770px) {
     .intro
     {
-        background:#484297;
+        background:#484297 !important;
+    }
+    .intro p{
+        font-size: 22px;
     }
     #why .row .col-md-4{
         text-align: center;
-    } 
+    }
+    p,#why p{
+        text-align: justify;
+    }
+    #lg-intro-btn{
+        display: none;
+    }
+    .package{
+        height: 100%;
+    }
   }
+@media only screen and (min-width:771px)
+{
+    #sm-intro-btn{
+        display: none;
+    }
+    .main-package-list{
+        position: relative;
+    }
+    .main-package-list .card{
+        position: absolute;
+        top: -26px;
+    }
+}  
 @media only screen and (max-width:1200px) {
     .intro h1{
         font-size:34px;
