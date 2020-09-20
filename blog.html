@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href ="Images/logo.jpg" type = "image/x-icon"> 
     <title>BookNeil Publication | Publication House</title>
 </head>
 
@@ -37,11 +38,30 @@
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="packages.html">Packages</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Anthology
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="packages.html">Packages</a>
+                            <div class="dropdown-divider"> </div>
+                            <a class="dropdown-item" href="#">Ongoing Anthology</a>
+                            <div class="dropdown-divider"> </div>
+                            <a class="dropdown-item" href="#">Books</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Packages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="packages.html">Anthologies</a>
+                            <div class="dropdown-divider"> </div>
+                            <a class="dropdown-item" href="SoloBookPackage.html">Solo Book</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="projects.html">Projects</a>
+                        <a class="nav-link" href="projects.html">Projects</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="blog.html">Blog</a>
@@ -136,15 +156,27 @@
                 <div class="col-md-4">
                     <h3>Follow Us</h3>
                     <ul class="d-flex">
-                        <li><i class="fa fa-facebook-official"></i></li>
-                        <li><i class="fa fa-instagram"></i></li>
-                        <li><i class="fa fa-twitter-square"></i></li>
+                        <li><a href="https://facebook.com"><i class="fa fa-facebook-official"></i></a></li>
+                        <li><a href="https://www.instagram.com/bookneilpublication/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fa fa-twitter-square"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-
+    <!--Copyright section-->
+    <section class="copyright">
+        <div class="container">
+            <div >
+                <div>
+                    <p class="text-center">Registered under MSME Act</p>
+                </div>
+                <div>
+                    <p class="text-center">Copyright&copy;2020 BookNeil Publication -All Rights Reserved </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

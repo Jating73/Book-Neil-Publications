@@ -2,9 +2,7 @@ AOS.init();
 (function() {
     'use strict';
     window.addEventListener('load', function() {
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
       var forms = document.getElementsByClassName('needs-validation');
-      // Loop over them and prevent submission
       var validation = Array.prototype.filter.call(forms, function(form) {
         form.addEventListener('submit', function(event) {
           if (form.checkValidity() === false) {
@@ -16,21 +14,37 @@ AOS.init();
       });
     }, false);
   })();
-document.getElementById('name').addEventListener('blur',validateName)
+document.getElementById('fname').addEventListener('blur',validateFirstName)
+document.getElementById('lname').addEventListener('blur',validateLastName)
 document.getElementById('email').addEventListener('blur',validateEmail)
-function validateName()
+function validateFirstName()
 {
-    const name=document.getElementById('name');
+    const fname=document.getElementById('fname');
     const re=/^[a-zA-Z]{2,20}$/
-    if(!re.test(name.value))
+    if(!re.test(fname.value))
     {
-        name.classList.add('is-invalid');
-        name.classList.remove('is-valid');
+        fname.classList.add('is-invalid');
+        fname.classList.remove('is-valid');
     } 
     else
     {
-        name.classList.add('is-valid');
-        name.classList.remove('is-invalid');
+        fname.classList.add('is-valid');
+        fname.classList.remove('is-invalid');
+    }
+}
+function validateLastName()
+{
+    const fname=document.getElementById('lname');
+    const re=/^[a-zA-Z]{2,20}$/
+    if(!re.test(lname.value))
+    {
+        lname.classList.add('is-invalid');
+        lname.classList.remove('is-valid');
+    } 
+    else
+    {
+        lname.classList.add('is-valid');
+        lname.classList.remove('is-invalid');
     }
 }
 function validateEmail()

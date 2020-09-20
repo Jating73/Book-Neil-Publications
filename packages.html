@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href ="Images/logo.jpg" type = "image/x-icon"> 
     <title>BookNeil Publication | Publication House</title>
 </head>
 
@@ -31,14 +32,33 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About Us</a>
                     </li>
-                    <li class="nav-item  active">
-                        <a class="nav-link" href="packages.html">Packages</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Anthology
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="packages.html">Packages</a>
+                            <div class="dropdown-divider"> </div>
+                            <a class="dropdown-item" href="#">Ongoing Anthology</a>
+                            <div class="dropdown-divider"> </div>
+                            <a class="dropdown-item" href="#">Books</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Packages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="packages.html">Anthologies</a>
+                            <div class="dropdown-divider"> </div>
+                            <a class="dropdown-item" href="SoloBookPackage.html">Solo Book</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="projects.html">Projects</a>
@@ -65,84 +85,62 @@
             <h3 class="text-center">Choose a Plan that Works for You</h3>
             <div class="packages-list">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 offset-md-2">
                         <div class="card text-center">
                             <div class="card-header">
-                                Anthology
+                                Investment Package
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">₹5,999</h5>
-                                <p class="card-text text-muted">Premium Book Cover</p>
+                                <h5 class="card-title"><span>₹5,599/-</span><div>
+                                    one time
+                                </div></h5>
                                 <p class="card-text text-muted">ISBN Allocation</p>
-                                <p class="card-text text-muted">Monthly Profit</p>
-                                <p class="card-text text-muted">Dedicated Manager</p>
-                                <p class="card-text text-muted">Pre And Post Publishing Support</p>
+                                <p class="card-text text-muted">Book Cover</p>
                                 <p class="card-text text-muted">Book Editing</p>
                                 <p class="card-text text-muted">Book Formatting</p>
-                                <p class="card-text text-muted">Proofreading</p>
-                                <p class="card-text text-muted">National Library Distribution</p>
-                                <p class="card-text text-muted">Author’s Copy (3)</p>
+                                <p class="card-text text-muted">Proof Reading</p>
+                                <p class="card-text text-muted">Author’s Copy (1)</p>
+                                <p class="card-text text-muted">Pre And Post Publishing Support</p>
                                 <p class="card-text text-muted">National Distribution</p>
-                                <p class="card-text text-muted">100% Royalty</p>
-                                <p class="card-text text-muted">Video Trailer (1)</p>
-                                <p class="card-text text-muted">Book Poster (3)</p>
-                                <p class="card-text text-muted">Paid Promotion</p>
-                                <p class="card-text text-muted">Lifetime Inventory Management</p>
-                                <a href="#" class="btn btn-primary rounded-pill">CONTACT US</a>
+                                <p class="card-text text-muted">Social Media Promotion</p>
+                                <p class="card-text text-muted">Author’s Interview</p>
+                                <p class="card-text text-muted">E-Book</p>
+                                <p class="card-text text-muted">Poster</p>
+                                <a href="contact.html" class="btn btn-primary rounded-pill">CONTACT US <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 main-package-list">
+                    <div class="col-md-4 offset-md-1">
                         <div class="card text-center">
                             <div class="card-header">
-                                Satisfaction Guaranteed
+                                Zero Investment Package
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">₹7,999</h5>
-                                <p class="card-text text-muted">Premium Book Cover</p>
-                                <p class="card-text text-muted">ISBN Allocation</p>
-                                <p class="card-text text-muted">Monthly Profit</p>
-                                <p class="card-text text-muted">Dedicated Manager</p>
-                                <p class="card-text text-muted">Pre And Post Publishing Support</p>
-                                <p class="card-text text-muted">Book Editing</p>
-                                <p class="card-text text-muted">Book Formatting</p>
-                                <p class="card-text text-muted">Proofreading</p>
-                                <p class="card-text text-muted">National Library Distribution</p>
-                                <p class="card-text text-muted">Author’s Copy (3)</p>
-                                <p class="card-text text-muted">National Distribution</p>
-                                <p class="card-text text-muted">100% Royalty</p>
-                                <p class="card-text text-muted">Video Trailer (1)</p>
-                                <p class="card-text text-muted">Book Poster (3)</p>
-                                <p class="card-text text-muted">Paid Promotion</p>
-                                <p class="card-text text-muted">Lifetime Inventory Management</p>
-                                <a href="#" class="btn btn-primary rounded-pill">CONTACT US</a>
+                                <h5 class="card-title"><span>₹0.00/-</span>
+                                    <div>
+                                        accordingly
+                                    </div>
+                                    </h5>
+                                <p class="card-text text-muted">Basic Package</p>
+                                <p class="card-text text-muted">to</p>
+                                <p class="card-text text-muted">Premium Package</p>
+                                <a href="contact.html" class="btn btn-primary rounded-pill">CONTACT US <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card text-center">
+                        <div class="card text-center mt-2">
                             <div class="card-header">
-                                Author’s Delight
+                                Add On
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">₹12,999</h5>
-                                <p class="card-text text-muted">Premium Book Cover</p>
-                                <p class="card-text text-muted">ISBN Allocation</p>
-                                <p class="card-text text-muted">Monthly Profit</p>
-                                <p class="card-text text-muted">Dedicated Manager</p>
-                                <p class="card-text text-muted">Pre And Post Publishing Support</p>
-                                <p class="card-text text-muted">Book Editing</p>
-                                <p class="card-text text-muted">Book Formatting</p>
-                                <p class="card-text text-muted">Proofreading</p>
-                                <p class="card-text text-muted">National Library Distribution</p>
-                                <p class="card-text text-muted">Author’s Copy (3)</p>
-                                <p class="card-text text-muted">National Distribution</p>
-                                <p class="card-text text-muted">100% Royalty</p>
-                                <p class="card-text text-muted">Video Trailer (1)</p>
-                                <p class="card-text text-muted">Book Poster (3)</p>
-                                <p class="card-text text-muted">Paid Promotion</p>
-                                <p class="card-text text-muted">Lifetime Inventory Management</p>
-                                <a href="#" class="btn btn-primary rounded-pill">CONTACT US</a>
+                                <h5 class="card-title">
+                                    <div>
+                                        *Terms & Conditions Applied
+                                    </div>
+                                    </h5>
+                                <p class="card-text text-muted">Additional Author Copies @Print+Delivery Cost</p>
+                                <p class="card-text text-muted">Bulk Offset Printing</p>
+                                <p class="card-text text-muted">Author’s Portfolio Website:7000/-</p>
+                                <a href="contact.html" class="btn btn-primary rounded-pill">CONTACT US <i class="fa fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -152,95 +150,16 @@
         
     </section>
 
-
-
-    <!--FAQ-->
-    <section id="faq">
-        <div class="container">
-            <div class="">
-                <div class="text-center mb-3">
-                    <h3>FAQs?</h3>
-                    <br>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-sm-12" data-aos="fade-up">
-                        <div class="row">
-                            <div>
-                                <span><i class="fa fa-question-circle"></i></span>
-                                <span>Who are we ?</span>
-                            </div>
-                            <div class="text-center">
-                                <p>
-                                    BookNeil Publication provide platform to published and unpublished authors/writers
-                                    to publish their contents, stories and poetries.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="row">
-                            <div>
-                                <span><i class="fa fa-question-circle"></i></span>
-                                <span>Who we do ?</span>
-                            </div>
-                            <div class="text-center">
-
-                                <p>
-                                    We Publish, design, proofread, arrange and organize books. We are recognized as high
-                                    quality book publishers who offer best packages to all the writers at very
-                                    affordable prices.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="row">
-                            <div>
-                                <span><i class="fa fa-question-circle"></i></span>
-                                <span>What is benefit of Anthology ?</span>
-                            </div>
-                            <div class="text-center">
-
-                                <p>
-                                    Anthologies are the one place where different writers can connect on a personal
-                                    level with other writers. This interaction helps them to grow as a writer as well as
-                                    helps them to grow their reach among readers and different communities.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="row">
-                            <div>
-                                <span><i class="fa fa-question-circle"></i></span>
-                                <span>Who should we pay for Anthology Participation ?</span>
-                            </div>
-                            <div class="text-center">
-
-                                <p>
-                                    Expenses like Cover Creation, Manuscript Editing, Book Formatting, ISBN allocation
-                                    etc, each of which costs money, thus an entry charge is taken.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!--contact us-->
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
                     <div>
-                        <h3>Ready to get started?</h3>
+                        <h3>STILL NOT SATISFIED?</h3>
                     </div>
                     <div>
-                        <p>Fill the form and get in touch!</p>
+                        <p>Get Customised Package for yourself!</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -267,15 +186,28 @@
                 <div class="col-md-4">
                     <h3>Follow Us</h3>
                     <ul class="d-flex">
-                        <li><i class="fa fa-facebook-official"></i></li>
-                        <li><i class="fa fa-instagram"></i></li>
-                        <li><i class="fa fa-twitter-square"></i></li>
+                        <li><a href="https://facebook.com"><i class="fa fa-facebook-official"></i></a></li>
+                        <li><a href="https://www.instagram.com/bookneilpublication/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fa fa-twitter-square"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
+    <!--Copyright section-->
+    <section class="copyright">
+        <div class="container">
+            <div >
+                <div>
+                    <p class="text-center">Registered under MSME Act</p>
+                </div>
+                <div>
+                    <p class="text-center">Copyright&copy;2020 BookNeil Publication -All Rights Reserved </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
