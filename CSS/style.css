@@ -42,7 +42,6 @@ body
 }
 .intro{ 
     background:url("/Images/cover.jpg") no-repeat center;
-    /*background:#484297;*/
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
@@ -139,9 +138,7 @@ p,#why .col-md-8 p{
 }
 #about .heading,.contact{
     padding-top: 75px;
-}
-#about .row{
-    padding: 73px 0px;
+    padding-bottom: 25px;
 }
 .posts{
     background-color: #f2c17d;
@@ -164,13 +161,7 @@ p,#why .col-md-8 p{
     margin: auto;
     padding-top: 30px;
 }
-#team .card-image{
-    margin: auto;
-    padding-top: 36px;
-}
 #team img{
-    height: 96px;
-    width: 101px;
 }
 #faq{
     background-color: #f2c17d;
@@ -192,6 +183,16 @@ p,#why .col-md-8 p{
 #contact .row{
     padding: 50px 0px;
 }
+#contact .card{
+    width: fit-content;
+}
+#contact .card-header{
+    background: #d98723;
+    color: white;
+}
+#contact .col-md-4{
+    margin: auto;
+}
 .contact{
     background-color: #f2c17d;
     background-image: linear-gradient(315deg, #f2c17d 0%, #b82e1f 74%);
@@ -211,6 +212,7 @@ p,#why .col-md-8 p{
 }
 #footer .row{
     padding-top:50px;
+    padding-bottom: 20px;
 }
 #footer li{
     list-style: none;
@@ -224,6 +226,12 @@ p,#why .col-md-8 p{
     background-color: black;
     color: white;
     padding: 20px;
+}
+#Page-Not-Found img{
+    padding: 53px 0px;
+}
+#Page-Not-Found p{
+    padding: 22px;
 }
 @media only screen and (max-width: 770px) {
     .intro
@@ -252,6 +260,17 @@ p,#why .col-md-8 p{
     .package{
         height: 100%;
     }
+    #contact .col-md-4{
+        margin-top: 10px;
+        text-align: center;
+    }
+    #Page-Not-Found .error{
+        text-align: center;
+        padding: 40px 0px;
+    }
+    #Page-Not-Found h1{
+        font-size: 1.5rem;
+    }
   }
 @media only screen and (min-width:771px)
 {
@@ -264,6 +283,10 @@ p,#why .col-md-8 p{
     .main-package-list .card{
         position: absolute;
         top: -26px;
+    }
+    #Page-Not-Found .error{
+        text-align: center;
+        padding: 177px 51px;
     }
 }  
 @media only screen and (max-width:1200px) {

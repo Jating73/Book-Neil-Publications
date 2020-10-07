@@ -11,6 +11,8 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/lightslider.css" />                  
+    <script src="js/lightslider.js"></script>
     <link rel="icon" href="Images/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>BookNeil Publication | Publication House</title>
@@ -22,7 +24,7 @@
         <div class="container">
             <div>
                 <a class="navbar-brand" href="#">
-                    <img src="Images/logo.jpg" class="img-thumbnail" alt="">
+                    <img src="Images/logo.jpg" class="img-thumbnail rounded-circle" alt="">
                 </a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -41,27 +43,28 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Packages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="SoloBookPackage.html">Solo Book</a>
+                            <div class="dropdown-divider"> </div>
+                            <a class="dropdown-item" href="packages.html">Anthologies</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Anthology
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="packages.html">Packages</a>
                             <div class="dropdown-divider"> </div>
-                            <a class="dropdown-item" href="#">Ongoing Anthology</a>
-                            <div class="dropdown-divider"> </div>
-                            <a class="dropdown-item" href="#">Published Anthology</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Packages
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="packages.html">Anthologies</a>
-                            <div class="dropdown-divider"> </div>
-                            <a class="dropdown-item" href="SoloBookPackage.html">Book</a>
+                            <a class="dropdown-item" href="Error 404.html">Ongoing Anthology</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
+                        <a class="nav-link" href="Error 404.html">Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Error 404.html">Brand</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="blog.html">Blog</a>
@@ -107,7 +110,7 @@
                 </div>
                 <div class="col-md-8 m-auto" data-aos="fade-up">
                     <div>
-                        <p> We are the most promising Premium Book Publication Service provider. We provide a project
+                        <p> We are the most promising Premium Book Publication Service provider. We provide a perfect
                             platform
                             to authors/writers to convert their content, stories and ideas into books that people can
                             hold,
@@ -129,7 +132,7 @@
                     <h3>Services We Provide</h3>
                     <p>We offer a Suite of Comprehensive Services to bring books on any topic from the spark of an idea
                         to a bound-and-pointed final product</p>
-                    <a href="packages.html" class="btn btn-warning rounded-pill">Check Package <i
+                    <a href="SoloBookPackage.html" class="btn btn-warning rounded-pill">Check Package <i
                             class="fa fa-arrow-right"></i></a>
                 </div>
                 <div class="col-md-8 lists">
@@ -245,40 +248,55 @@
     <!--Team Members-->
     <section id="team">
         <div class="container mt-4">
-            <h3 class="text-center">OUR TEAM</h3>
-            <div class="row mb-4 justify-content-center">
-                <div class="col-md-4 mb-2" data-aos="fade-up">
+            <h3 class="text-center">OUR TEAM</h3>      
+            <ul id="review_slider_content">
+                <li>
                     <div class="card">
-                        <div class="card-image">
-                            <img src="Images/Founder.jpeg" class="rounded-circle card-img-top"
-                                alt="...">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Amitesh, born on 26th Dec ’96 in Ujjain, M.P and currently settled
-                                in Indore. He is pursuing a Degree in B.Sc Agriculture. He’s is a writer and a poet. For
-                                him writing is an expression of love.</p>
-                            <p class="font-weight-bold">Amitesh</p>
-                            <p class="font-weight-bold">Founder, BookNeil</p>
-                        </div>
+                        <img src="Images/Founder.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="font-weight-bold text-center">Amitesh Kr.</p>
+                        <p class="font-weight-bold text-center">Founder & CEO</p>
+                        <p class="font-weight-bold text-center">BookNeil</p>
                     </div>
                 </div>
-                <div class="col-md-4 mb-2 col-md-offset-2" data-aos="fade-up">
-                    <div class="card co-founder">
-                            <div class="card-image">
-                                <img src="Images/Co-founder-new.jpeg" class="rounded-circle card-img-top"
-                                    alt="...">
-                            </div>
+                </li>
+                <li>
+                   <div class="card">
+                        <img src="Images/Co-founder-1.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Neha Jha, born on 10th Oct ’98 in Bihar and brought up in M.P and
-                                currently settled in Indore. He is pursuing a Degree in B. Visual Arts. For her writing
-                                is eternal love. </p>
-                            <p class="font-weight-bold">Neha Jha</p>
-                            <p class="font-weight-bold">Co-founder & Anthology Dept., BookNeil</p>
+                            <p class="font-weight-bold text-center">Neha Jha</p>
+                            <p class="font-weight-bold text-center">Co-found & Head of Anthology Department</p>
+                            <p class="font-weight-bold text-center">BookNeil</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-
+                </li>
+                <li>
+                   <div class="card">
+                        <img src="Images/Designer.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="font-weight-bold text-center">Abhineet Kumar</p>
+                            <p class="font-weight-bold text-center">Designer</p>
+                            <p class="font-weight-bold text-center">BookNeil</p>
+                        </div>
+                </li>
+                <li>
+                   <div class="card">
+                        <img src="Images/Designer.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="font-weight-bold text-center">Satya Gayatri</p>
+                            <p class="font-weight-bold text-center">Event and PR head</p>
+                            <p class="font-weight-bold text-center">BookNeil</p>
+                        </div>
+                </li>
+                <li>
+                   <div class="card">
+                        <img src="Images/Designer.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="font-weight-bold text-center">Naina Raj</p>
+                            <p class="font-weight-bold text-center">Compiler Head</p>
+                            <p class="font-weight-bold text-center">BookNeil</p>
+                        </div>
+                </li>
+            </ul>
         </div>
     </section>
 
@@ -307,21 +325,42 @@
     <section id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <h3>Location</h3>
-                    <p>BookNeil Publication, </p>
-                    <p>Madhubani, Bihar.</p>
-                    <br>
-                    <p>(+91) 9876543210</p>
-                    <p>info.bneil@gmail.com</p>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <h3>Location</h3>
+                            <p>BookNeil Publication, </p>
+                            <p>Badi Yusufpur,</p>
+                            <p>Hajipur, Bihar-844101</p>
+                            <br>
+                            <p>A-129, PC Colony</p>
+                            <p>Kankarbagh, Patna-800020</p>
+                            <br>
+                            <p>(+91) 7634988907</p>
+                            <p>info.bneil@gmail.com</p>
+                        </div>
+                        <div class="col-md-8 m-auto col-sm-12">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14393.494744923215!2d85.14438572732848!3d25.592496089419775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5885d8748499%3A0x69cc2cbe4cf5b39f!2sP%20C%20Colony%2C%20Kankarbagh%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1602024776370!5m2!1sen!2sin"
+                                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                    aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <h3>Follow Us</h3>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Follow Us</h3>
+                        </div>
+                    </div>
                     <ul class="d-flex">
                         <li><a href="https://facebook.com"><i class="fa fa-facebook-official"></i></a></li>
                         <li><a href="https://www.instagram.com/bookneilpublication/"><i class="fa fa-instagram"></i></a>
                         </li>
-                        <li><a href="https://www.twitter.com"><i class="fa fa-twitter-square"></i></a></li>
+                        <li><a href="https://mobile.twitter.com/bookneil_"><i class="fa fa-twitter-square"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=+917634988907"><i class="fa fa-whatsapp"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -354,6 +393,32 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>    
+    <script>
+            $(document).ready(function(){
+                $("#review_slider_content").lightSlider({
+                    auto: true,
+                    loop: true,
+                    responsive : [
+                    {
+                        breakpoint:800,
+                        settings: {
+                            item:3,
+                            slideMove:1,
+                            slideMargin:6,
+                        }
+                    },
+                    {
+                        breakpoint:480,
+                        settings: {
+                            item:1,
+                            slideMove:1
+                        }
+                    }
+                    ]
+                });
+            })
+    </script>
 </body>
 
 </html>
