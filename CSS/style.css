@@ -41,7 +41,7 @@ body
     width: 37px;
 }
 .intro{ 
-    background:url("/Images/cover.jpg") no-repeat center;
+    background:url("../Images/cover.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
